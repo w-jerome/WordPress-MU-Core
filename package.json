@@ -1,0 +1,23 @@
+{
+  "name": "wordpress-mu-core",
+  "version": "1.0.0",
+  "description": "A WordPress boilerplate to dissociate the site's own functionalities from the theme with basi configuration.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w-jerome/WordPress-MU-Core.git"
+  },
+  "keywords": [
+    "wordpress",
+    "muplugins",
+    "mu-plugins",
+    "plugin",
+    "core",
+    "boilerplate"
+  ],
+  "author": "Jérôme Wohlschlegel <jerome.wohlschlegel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/w-jerome/WordPress-MU-Core/issues"
+  },
+  "homepage": "https://github.com/w-jerome/WordPress-MU-Core#readme"
+}
