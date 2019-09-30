@@ -24,6 +24,7 @@ require WPMUCORE_DIR . DIRECTORY_SEPARATOR . 'acf-page-options.php';
 require WPMUCORE_DIR . DIRECTORY_SEPARATOR . 'wp-admin-custom.php';
 require WPMUCORE_DIR . DIRECTORY_SEPARATOR . 'wp-admin-revisions.php';
 require WPMUCORE_DIR . DIRECTORY_SEPARATOR . 'wp-admin-tinymce.php';
+require WPMUCORE_DIR . DIRECTORY_SEPARATOR . 'wp-ajax.php';
 require WPMUCORE_DIR . DIRECTORY_SEPARATOR . 'wp-comment-disable.php';
 require WPMUCORE_DIR . DIRECTORY_SEPARATOR . 'wp-media.php';
 require WPMUCORE_DIR . DIRECTORY_SEPARATOR . 'wp-menus.php';
@@ -60,6 +61,7 @@ class WPMUCore {
 		new WPMUCoreWPAdminCustom();
 		new WPMUCoreWPAdminRevisions();
 		new WPMUCoreWPAdminTinymce();
+		new WPMUCoreWPAjax();
 		new WPMUCoreWPCommentDisable();
 		new WPMUCoreWPMedia();
 		new WPMUCoreWPMenus();
