@@ -1,6 +1,6 @@
 {
   "name": "wordpress-mu-core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A WordPress boilerplate to dissociate the site's own functionalities from the theme with basi configuration.",
   "repository": {
     "type": "git",
