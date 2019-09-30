@@ -25,6 +25,10 @@ Default `false`
 
 We offer you a basic configuration.
 
+### WP Ajax
+
+We offer you a basic configuration.
+
 ### WP Comment disable
 
 Instead of getting the back office spammed, you might as well disable it.
