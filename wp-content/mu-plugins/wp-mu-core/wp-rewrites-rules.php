@@ -20,15 +20,15 @@ class WPMUCoreWPRewritesRules {
 	 * __construct
 	 */
 	public function __construct() {
-		add_action(
-			'init',
-			array(
-				$this,
-				'init',
-			),
-			10,
-			0
-		);
+		// add_action(
+		// 	'init',
+		// 	array(
+		// 		$this,
+		// 		'init',
+		// 	),
+		// 	10,
+		// 	0
+		// );
 	}
 
 	/**
