@@ -20,17 +20,17 @@ class WPMUCoreWPRoles {
 	 * __construct
 	 */
 	public function __construct() {
-		add_action( 'after_setup_theme', array( $this, 'init' ) );
+		// add_action( 'after_setup_theme', array( $this, 'init' ) );
 	}
 
 	/**
 	 * Init
 	 */
 	public function init() {
-		// add_role(
-		// 	'custom_role',
-		// 	'Custom Subscriber',
-		// 	array()
-		// );
+		add_role(
+			'custom_role',
+			'Custom Subscriber',
+			array()
+		);
 	}
 }

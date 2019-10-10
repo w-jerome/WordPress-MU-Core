@@ -21,6 +21,8 @@ class WPMUCoreWPMedia {
 	 */
 	public function __construct() {
 		add_filter( 'sanitize_file_name', array( $this, 'remove_accents' ) );
+		add_filter( 'jpeg_quality', array( $this, 'update_jpeg_quality' ), 10, 2 );
+		$this->add_media_sizes();
 	}
 
 	/**
@@ -39,5 +41,19 @@ class WPMUCoreWPMedia {
 		$friendly_filename = str_replace( ' ', '-', $friendly_filename );
 		$friendly_filename = str_replace( '--', '-', $friendly_filename );
 		return $friendly_filename;
+	}
+
+	/**
+	 * Update jpg quality
+	 */
+	public function update_jpeg_quality() {
+		return 100;
+	}
+
+	/**
+	 * Add media sizes
+	 */
+	public function add_media_sizes() {
+		// add_image_size( 'retina', 2560 );
 	}
 }
