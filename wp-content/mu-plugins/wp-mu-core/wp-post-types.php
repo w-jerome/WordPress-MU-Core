@@ -10,11 +10,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
- * SMCoreWPPostsTypes
+ * WPMUCoreWPPostsTypes
  *
  * @category Class
  */
-class SMCoreWPPostsTypes {
+class WPMUCoreWPPostsTypes {
 
 	/**
 	 * __construct
